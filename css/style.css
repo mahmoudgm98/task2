@@ -1,0 +1,113 @@
+body{
+   margin:0;
+   padding:0;
+   background:url("../images/bcaeb6648fcd3eac9cdcb634c362fca3.jpg");
+   background-size: cover;
+   background-position: top;
+   background-attachment: fixed;
+   height: 100vh;
+   overflow: hidden;
+    }
+.nav ul li {list-style: none;}
+.nav ul li h1{
+  float: left;
+text-transform: capitalize;
+color: #FFF;
+}
+.nav ul li a{
+  text-decoration: none;
+    color: #FFF;
+    float: right;
+    position: relative;
+    right: 41px;
+    font-size: 23px;
+    color: #FFF;
+    position: relative;
+    z-index: 22;
+}
+.nav ul li a:hover .right-list
+{
+  display: block;
+}
+.log{
+   width:1366px;
+   height:696px;
+   }
+.loginDiv{  width: 320px;
+   height: 450px;
+   background: #000;
+   color: #fff;
+   top:20%;
+   left:36%;
+   position:absolute;
+   transform: translate{-50%,-50%}
+   box-sizing: border-box;
+   padding: 70px 30px;
+   opacity:0.7;
+   border-radius: 35px;
+        }
+h1{
+   margin:0;
+   padding: 0 0 20px;
+   text-align: center;
+   font-size: 30px;
+   font-family:AR JULIAN;
+   color:blue;
+ }
+
+.loginDiv input{
+   width: 100%;
+   margin-bottom:20px;
+              }
+.loginDiv input[type="email"], input[type="password"]{
+   border: none;
+   border-bottom: 1px solid #fff;
+   background: transparent;
+   outline:none;
+   height:40px;
+   color:#fff;
+   font-size:16px;
+       }
+.loginDiv input[type="submit"]{
+   border: none;
+   outline:none;
+   height:40px;
+   background:#fb2525;
+   color: #fff;
+   font-size:18px;
+   border-radius:20px;
+       }
+.loginDiv a{
+   text-decoration:none;
+   font-size:12px;
+   line-height:20px;
+   color: darkgrey;
+}
+.loginbox a:hover
+{
+ color:#ffc107;
+}
+.right-list
+{
+   position: relative;
+    height: 100vh;
+    width: 20%;
+    background-color: #264afb;
+    margin: 0;
+    padding: 0;
+    top: -16px;
+    opacity: 0.7;
+    float: right;
+    right: -18px;
+    /**display: none;*/
+}
+.right-list ul {
+    padding-top: 83px;
+    text-align: center;}
+.right-list ul li {list-style: none;margin-top: 35px;}
+.right-list ul li a {
+  text-decoration: none;
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+}
